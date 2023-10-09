@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: rgb(59, 59, 59);
+}
+
+
+video {
+    height: 600px;
+    width: 500px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+.container{
+    position: relative;
+}
+
+
+canvas {
+    position: absolute;
+    /* background-color: rgba(255, 0, 0, 0.331); */
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+}
